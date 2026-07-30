@@ -1,12 +1,12 @@
-# try:
-#     a= int(input("enter a number : "))
-#     b= int(input("enter a number : "))
-#     c=a/b
-#     print(c)
-# except ZeroDivisionError:
-#     print("division by zero is not possible")   
-# except ValueError:
-#     print("invalid input") 
+try:
+    a= int(input("enter a number : "))
+    b= int(input("enter a number : "))
+    c=a/b
+    print(c)
+except ZeroDivisionError:
+    print("division by zero is not possible")   
+except ValueError:
+    print("invalid input") 
 # #======================================================
 # try:
 #     num=int(input("enter a number : "))

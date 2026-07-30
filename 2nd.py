@@ -6,10 +6,10 @@ n=len(arr)
 #     print(i)
 #------------------------- print all elem
 
-# sum=0
-# for i in arr:
-#     sum += i
-# print(sum)
+sum=0
+for i in arr:
+    sum += i
+print(sum)
 # ----------------print sum of arry
 
 
