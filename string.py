@@ -62,15 +62,6 @@
 # print(maxx)
 # the above code finds the first non-repeating character and the most frequently occurring character in the input string.
 
-# s1=input("Enter first string: ").lower().replace(" ", "")
-# s2=input("Enter second string: ").lower().replace(" ", "")
-
-# if sorted(s1) == sorted(s2):
-#     print("The strings are anagrams.")
-# else:
-#     print("The strings are not anagrams.")  
-#the above code checks if two input strings are anagrams of each other by comparing their sorted character lists after converting them to lowercase and removing spaces.
-
 # sen= input("Enter a sentence: ")
 # print(len(sen.split()))
 
@@ -94,7 +85,12 @@
 # s= input("Enter a string: ").replace("  ", " ")
 # print(s[::-1])  # This line prints the reverse of the input string.
 
-n= "🐍"
 
-for i in range(100):
-    print(n)
+# s1=input("Enter first string: ").lower().replace(" ", "")
+# s2=input("Enter second string: ").lower().replace(" ", "")
+
+# if sorted(s1) == sorted(s2):
+#     print("The strings are anagrams.")
+# else:
+#     print("The strings are not anagrams.")  
+#the above code checks if two input strings are anagrams of each other by comparing their sorted character lists after converting them to lowercase and removing spaces.
