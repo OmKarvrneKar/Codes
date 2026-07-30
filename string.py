@@ -94,3 +94,4 @@
 # else:
 #     print("The strings are not anagrams.")  
 #the above code checks if two input strings are anagrams of each other by comparing their sorted character lists after converting them to lowercase and removing spaces.
+

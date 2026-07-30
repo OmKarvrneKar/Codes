@@ -14,3 +14,4 @@ class std:
 
 s=std()
 s.display()
+
