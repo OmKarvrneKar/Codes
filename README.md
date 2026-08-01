@@ -14,6 +14,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/OmKarvrneKar/Codes/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/OmKarvrneKar/Codes/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Recursion
@@ -24,5 +25,6 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/OmKarvrneKar/Codes/tree/master/0020-valid-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/OmKarvrneKar/Codes/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
