@@ -16,6 +16,8 @@ def minimumpushes(word):
     return ans
 
 
+
+
 print(minimumpushes("helloworld"))
 
 #3407
@@ -94,3 +96,15 @@ b = float("10")
 
 print(a + b)
 print(type(a + b))
+
+#53 maximum subarray sum
+nums = [-2,1,-3,4,-1,2,1,-5,4]
+
+res=[]
+for i in range(len(nums)):
+    for j in range(i+1,len(nums)+1):
+        res.append(nums[i:j])
+
+sub_arry = max(sum(sub_lst) for sub_lst in res)
+print(sub_arry)
+
