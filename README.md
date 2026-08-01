@@ -5,4 +5,17 @@
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/OmKarvrneKar/Codes/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
