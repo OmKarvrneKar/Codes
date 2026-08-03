@@ -108,3 +108,9 @@ for i in range(len(nums)):
 sub_arry = max(sum(sub_lst) for sub_lst in res)
 print(sub_arry)
 
+
+
+#-=========
+arr=[1,2,3,4,5]
+arr.pop()
+print(arr)
