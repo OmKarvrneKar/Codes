@@ -73,7 +73,7 @@ def deletenode(head, data):
         return head
 
 
-# merge two sorted linked list
+# merge two sorted linked listk
 # class Solution(object):
 #     def mergeTwoLists(self, list1, list2):
 #         dummy = ListNode()
