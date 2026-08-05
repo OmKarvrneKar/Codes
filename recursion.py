@@ -1,14 +1,14 @@
-# Fibonacci series using recursion
-# def fibo(n):
-#     a,b=0,1
-#     result=[]
-#     for i in range(n):
-#         result.append(a)
-#         a,b=b,a+b
-#     return result
+#Fibonacci series using recursion
+def fibo(n):
+    a,b=0,1
+    result=[]
+    for i in range(n):
+        result.append(a)
+        a,b=b,a+b
+    return result
 
-# n=int(input(" "))
-# print(fibo(n))
+n=int(input(" "))
+print(fibo(n))
 
 
 
