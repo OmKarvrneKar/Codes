@@ -7,21 +7,21 @@ except ZeroDivisionError:
     print("division by zero is not possible")   
 except ValueError:
     print("invalid input") 
-# #======================================================
-# try:
-#     num=int(input("enter a number : "))
-#     print(num)  
-# except ValueError:
-#     print("invalid input")  
+#======================================================
+try:
+    num=int(input("enter a number : "))
+    print(num)  
+except ValueError:
+    print("invalid input")  
 
 # #====================================================  
-# try: 
-#     aa=int(input("enter a number : "))
-#     bb=int(input("enter a number : "))
-#     cc=aa/bb
-#     print(cc)
-# except (ZeroDivisionError, ValueError):
-#     print("invalid input or division by zero") 
+try: 
+    aa=int(input("enter a number : "))
+    bb=int(input("enter a number : "))
+    cc=aa/bb
+    print(cc)
+except (ZeroDivisionError, ValueError):
+    print("invalid input or division by zero") 
 # #====================================================
 
 # try :
