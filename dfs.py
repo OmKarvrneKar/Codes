@@ -1,24 +1,27 @@
-def dfs(graph , start, visited = None):
-    if visited is None:
-        visited = set()
-    visited.add(start)
-    print(start)
-    for neighbor in  graph[start]:
-        if neighbor not in visited:
-                dfs(graph,neighbor,visited)
+# def dfs(graph , start, visited = None):
+#     if visited is None:
+#         visited = set()
+#     visited.add(start)
+#     print(start)
+#     for neighbor in  graph[start]:
+#         if neighbor not in visited:
+#                 dfs(graph,neighbor,visited)
 
         
-graph = {
-        'A': ['B', 'C'],
-        'B': ['D', 'E'],
-        'C': ['F'],
-        'D': [],
-        'E': [],
-        'F': []
+# graph = {
+#         'A': ['B', 'C'],
+#         'B': ['D', 'E'],
+#         'C': ['F'],
+#         'D': [],
+#         'E': [],
+#         'F': []
 
-}
-visited = set()
-dfs(graph, 'A', visited)
+# }
+# visited = set()
+# dfs(graph, 'A', visited)
 
-# time complexity is  O(V+E) where V is the number of vertices and E is the number of edges in the graph.
+# # time complexity is  O(V+E) where V is the number of vertices and E is the number of edges in the graph.
 
+n = 12345
+
+print(len(str(n)))

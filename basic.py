@@ -203,6 +203,32 @@ s1=int(input("entet the ine side :"))
 s2=int(input("entet the ine side :"))
 s3=int(input("entet the ine side :"))
 if s1+s2>s3 or s1+s3>s2 or s2+s3>s1:
-    print("its trange")
+    print("its triangle")
 else:
     print("not a triangle")
+
+
+#+=========================
+n=int(input("enter the number"))
+
+if n%3==0 and n%5==0:
+    print("divisible by 3 and 5")
+else:
+    print("not divisible by 3 and 5")
+#=========================
+
+a=int(input("enter the first angle: "))
+b=int(input("enter the second angle: "))
+c=int(input("enter the third angle: "))
+triangle_sum = a + b + c
+if triangle_sum == 180:
+    print("The angles form a valid triangle.")
+else:
+    print("The angles do not form a valid triangle.")
+#=========================
+input_no=int(input("enter the number: "))
+if input_no%100==0 :
+    print("year is century year")
+else:
+    print("year is not century year")   
+#=========================
