@@ -197,4 +197,12 @@ char1= input("enter the letter")
 if char1.isupper():
     print("uppercase")
 else:
-    print("lowercase")
+    print("lowercase") 
+#=========================
+s1=int(input("entet the ine side :"))
+s2=int(input("entet the ine side :"))
+s3=int(input("entet the ine side :"))
+if s1+s2>s3 or s1+s3>s2 or s2+s3>s1:
+    print("its trange")
+else:
+    print("not a triangle")
