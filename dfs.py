@@ -22,6 +22,3 @@
 
 # # time complexity is  O(V+E) where V is the number of vertices and E is the number of edges in the graph.
 
-n = 12345
-
-print(len(str(n)))
