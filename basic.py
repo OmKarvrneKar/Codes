@@ -114,3 +114,70 @@ print(sub_arry)
 arr=[1,2,3,4,5]
 arr.pop()
 print(arr)
+
+#=================
+
+a = int(input("enter the val: "))
+if a%2==0:
+    print("Even")
+else:
+    print("Odd")
+
+#=============
+o,t=map(int, input().split())
+
+if o>t:
+
+    print("one is larger ")
+else:
+    print("two is larger")
+
+#=========================
+
+l,a,r=map(int,input().split())
+
+if (l>a and l>r):
+    print("l is larger")
+elif (a>l and a>r):
+    print("ais larger")
+else: print("r is larger")
+
+#================
+year=int(input("Enter a year: "))
+if (year%4==0 and year%100!=0) or (year%400==0):
+    print("leap year")
+else:
+    print("not a leap year")
+#========================
+
+radius=int(input("Enter the radius of the circle: "))
+pi=3.14
+area=pi*radius**2
+print("Area of the circle is: ",area)
+
+#========================
+
+celsius=int(input("Enter the temperature in Celsius: "))
+fahrenhit=(celsius*9/5)+32
+print("Temperature in Fahrenheit is: ",fahrenhit)
+#======================
+a=1
+b=2
+a,b=b,a
+print(a,b)
+
+#=========================
+a,b,c=map(int,input().split())
+if a<b and a<c:
+    print("a is smaller")
+elif b<a and b<c:
+    print("b is smaller")
+else:
+    print("c is smaller")
+#=========================
+
+m=-10
+if m>0:
+    print("positive")
+else: print("negative")
+#=========================
