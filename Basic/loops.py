@@ -45,3 +45,9 @@
 # #========================
 n=987654
 print("count of digits in the number is: 987654 ",len(str(n)))
+#========================
+n=12345
+sum=0
+for i in str(n):
+    sum+=int(i)
+print("sum of digits in the number is: 12345 ",sum)
