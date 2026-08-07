@@ -44,16 +44,45 @@
 # print("Reverse of the number is: 12345 ",str(n)[::-1])
 # #========================
 n=987654
-print("count of digits in the number is: 987654 ",len(str(n)))
-#========================
-n=12345
-sum=0
-for i in str(n):
-    sum+=int(i)
-print("sum of digits in the number is: 12345 ",sum)
-#========================
-n=121
-if str(n)==str(n)[::-1]:
-    print("The number is palindrome")
-else:
-    print("The number is not palindrome")
+# print("count of digits in the number is: 987654 ",len(str(n)))
+# #========================
+# n=12345
+# sum=0
+# for i in str(n):
+#     sum+=int(i)
+# print("sum of digits in the number is: 12345 ",sum)
+# #========================
+# n=121
+# if str(n)==str(n)[::-1]:
+#     print("The number is palindrome")
+# else:
+#     print("The number is not palindrome")
+# #========================
+# n=153
+# sum=0
+# for i in str(n):
+#     sum+=int(i)**len(str(n))
+#     if sum==n:
+#         print("The number is armstrong" )
+#     else:
+#         print("The number is not armstrong")
+
+#=========================
+# n=18
+# for i in range(2,n):
+#     if n%i==0:
+#         print("The number is not prime")
+#         break
+#     else:
+#         print("The number is prime")
+#         break
+#=========================
+n=100
+for i in range(2,n):
+    if n%i==0:
+        print("The number is not prime")
+        break
+    else:
+        print("The number is prime")
+        break
+
