@@ -51,3 +51,9 @@ sum=0
 for i in str(n):
     sum+=int(i)
 print("sum of digits in the number is: 12345 ",sum)
+#========================
+n=121
+if str(n)==str(n)[::-1]:
+    print("The number is palindrome")
+else:
+    print("The number is not palindrome")
