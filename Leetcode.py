@@ -74,9 +74,9 @@ def deletenode(head, data):
 
 
 # merge two sorted linked listk
-class Solution(object):
+class Sol(object):
     def mergeTwoLists(self, list1, list2):
-        dummy = ListNode()
+        dummy =ListNode()
         tail = dummy
 
         while list1 and list2:
