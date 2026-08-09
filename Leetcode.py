@@ -125,7 +125,7 @@ class Solution(object):
         
 #=================================
 #leetcode 66. Plus One
-def plusone(digits):
+def plusOne(digits):
      n=len(digits)
      for i in range(n-1,-1,-1):
           if digits[i]<9:
