@@ -123,3 +123,35 @@ class Solution(object):
             
         return dfs(root) != -1
         
+#=================================
+#leetcode 66. Plus One
+def plusone(digits):
+     n=len(digits)
+     for i in range(n-1,-1,-1):
+          if digits[i]<9:
+               digits[i]+=1
+               return digits
+          digits[i]=0
+     # If we reach here, it means all digits were 9, so we need to add a new digit at the beginning
+     return [1] + digits
+
+
+#==========================
+# remove duplicates
+class Solution(object):
+    def removeDuplicateLetters(self, s):
+        last_index = {char: i for i, char in enumerate(s)}
+        stack = []
+        seen = set()
+
+        for i, char in enumerate(s):
+            if char in seen:
+                continue
+
+            while stack and char < stack[-1] and last_index[stack[-1]] > i:
+                seen.remove(stack.pop())
+
+            stack.append(char)
+            seen.add(char)
+
+        return "".join(stack)
