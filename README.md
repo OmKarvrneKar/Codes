@@ -75,4 +75,12 @@
 |  |
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/OmKarvrneKar/Codes/tree/master/0316-remove-duplicate-letters) |
+## Array
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/OmKarvrneKar/Codes/tree/master/0066-plus-one) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/OmKarvrneKar/Codes/tree/master/0066-plus-one) |
 <!---LeetCode Topics End-->
