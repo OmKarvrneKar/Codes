@@ -17,6 +17,7 @@
 | [0020-valid-parentheses](https://github.com/OmKarvrneKar/Codes/tree/master/0020-valid-parentheses) |
 | [0232-implement-queue-using-stacks](https://github.com/OmKarvrneKar/Codes/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/OmKarvrneKar/Codes/tree/master/0234-palindrome-linked-list) |
+| [0316-remove-duplicate-letters](https://github.com/OmKarvrneKar/Codes/tree/master/0316-remove-duplicate-letters) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/OmKarvrneKar/Codes/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Recursion
 |  |
@@ -27,6 +28,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/OmKarvrneKar/Codes/tree/master/0020-valid-parentheses) |
+| [0316-remove-duplicate-letters](https://github.com/OmKarvrneKar/Codes/tree/master/0316-remove-duplicate-letters) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/OmKarvrneKar/Codes/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Design
 |  |
@@ -65,4 +67,12 @@
 | ------- |
 | [0100-same-tree](https://github.com/OmKarvrneKar/Codes/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/OmKarvrneKar/Codes/tree/master/0104-maximum-depth-of-binary-tree) |
+## Greedy
+|  |
+| ------- |
+| [0316-remove-duplicate-letters](https://github.com/OmKarvrneKar/Codes/tree/master/0316-remove-duplicate-letters) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0316-remove-duplicate-letters](https://github.com/OmKarvrneKar/Codes/tree/master/0316-remove-duplicate-letters) |
 <!---LeetCode Topics End-->
