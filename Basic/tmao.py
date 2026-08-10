@@ -47,23 +47,31 @@
 
 
 
-#amstri=ong number Armstrong Number ⭐⭐⭐
+#amstri=ong 
+# def is_armstrong(n):
+#     sum=0
+#     temp=n
+#     while temp>0:
+#         digit=temp%10
+#         sum+=digit**3
+#         temp//=10
+#     return sum==n
 
+# m=153
+# if is_armstrong(m):
+#     print("The number is Armstrong")    
+# else:
+#     print("The number is not Armstrong")
 
-#Now retry the Armstrong problem you previously got wrong.
-
-#Input: 153 Output: Armstrong
-def is_armstrong(n):
-    sum=0
-    temp=n
-    while temp>0:
-        digit=temp%10
-        sum+=digit**3
-        temp//=10
-    return sum==n
-
-m=153
-if is_armstrong(m):
-    print("The number is Armstrong")    
+#
+n = 11
+if n <= 1:
+    print(False)
 else:
-    print("The number is not Armstrong")
+    prime = True
+
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            prime = False
+            break
+    print(prime) 
