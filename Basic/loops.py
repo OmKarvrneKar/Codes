@@ -166,3 +166,16 @@ def count_of_perticular(n,d):
 m=123455
 d=5
 print(count_of_perticular(m,d))
+
+#==========================
+def remove_zero(n):
+    result=0
+    while n>0:
+        remove=n%10
+        if remove!=0:
+            result=(result*10)+remove
+        n//=10
+    return result
+
+m=123450
+print("Number after removing zeros is: 123450 ",remove_zero(m))
