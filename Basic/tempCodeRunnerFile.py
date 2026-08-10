@@ -1,11 +1,20 @@
-def largest(n):
-#     max_dig=0
+def counte(n):
+#     count=0
 #     while n>0:
-#         digi=n%10
-#         if digi>max_dig:
-#             max_dig=digi
+#         if n%2==0:
+#             count+=1
+#         n//=10  
+#     return count
+# m=123456
+# print(counte(m))
+# #==========================
+
+# def count_odd(n):
+#     count=0
+#     while n>0:
+#         if n%2!=0:
+#             count+=1
 #         n//=10
-#     return max_dig
-        
-# m=12345
-# print("Largest digit in the number is: 12345 ",largest(m))
+#     return count
+# m=12346
+# print(count_odd(m))

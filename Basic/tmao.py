@@ -64,14 +64,68 @@
 #     print("The number is not Armstrong")
 
 #
-n = 11
-if n <= 1:
-    print(False)
-else:
-    prime = True
+# n = 11
+# if n <= 1:
+#     print(False)
+# else:
+#     prime = True
 
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            prime = False
-            break
-    print(prime) 
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             prime = False
+#             break
+#     print(prime) 
+# #+++++++++++++++++++++
+# n=1234
+# sum=1
+# while n>0:
+#     sum*=n%10
+#     n//=10
+# print(sum)
+
+#++++++++++++++
+# def smaller(n):
+#     min_dig=9
+#     while n>0:
+#         digi=n%10
+#         if digi<min_dig:
+#             min_dig=digi
+#         n//=10
+#     return min_dig
+# m=58321
+# print(smaller(m))
+
+#==========================
+# def counte(n):
+#     count=0
+#     while n>0:
+#         if n%2==0:
+#             count+=1
+#         n//=10  
+#     return count
+# m=123456
+# print(counte(m))
+# #==========================
+
+# def count_odd(n):
+#     count=0
+#     while n>0:
+#         if n%2!=0:
+#             count+=1
+#         n//=10
+#     return count
+# m=12346
+# print(count_odd(m))
+
+#==========================
+def evendif(n):
+    sum=0
+    while n>0:
+        if n%2==0:
+            sum+=n%10
+        n//=10
+
+
+    return sum
+m=123456
+print(evendif(m))
