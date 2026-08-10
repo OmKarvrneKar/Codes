@@ -87,3 +87,82 @@ def fubo(n):
 print(fubo(10))
 
 #=========================
+# reverse of a number
+def reverse(n):
+    rev=0
+    while n>0:
+        rev=(rev*10)+n%10
+        n//=10 
+    return rev
+
+m=12345
+print("Reverse of the number is: 12345 ",reverse(m))
+#=========================
+def count(n):
+    count=0
+    while n>0:
+        count+=1
+        n//=10
+    return count
+
+m=12345
+print("Count of digits in the number is: 12345 ",count(m))
+#=========================
+def sum(n):
+    sum=0
+    while n>0:
+        sum+=n%10
+        n//=10
+    return sum
+
+m=12345
+print("Sum of digits in the number is: 12345 ",sum(m))
+#=========================
+def reve(n):
+    temp=0
+    while n>0:
+        temp=(temp*10)+n%10
+        n//=10
+    return temp
+
+if reve(m)==m:
+    print("The number is palindrome")
+else:
+    print("The number is not palindrome")
+
+m=153
+print("Reverse of the number is: 153 ",reve(m))
+#==================
+# prodeuct
+def pro(n):
+    prod=1
+    while n>0:
+        prod*=n%10
+        n//=10
+    return prod     
+
+m=12345
+print("Product of digits in the number is: 12345 ",pro(m))
+#=========================
+def largest(n):
+    max_dig=0
+    while n>0:
+        digi=n%10
+        if digi>max_dig:
+            max_dig=digi
+        n//=10
+    return max_dig
+        
+m=12345
+print("Largest digit in the number is: 12345 ",largest(m))
+#=========================
+def count_of_perticular(n,d):
+    count=0
+    while n>0:
+        if  n%10==d:
+            count+=1
+        n//=10
+    return count
+m=123455
+d=5
+print(count_of_perticular(m,d))
