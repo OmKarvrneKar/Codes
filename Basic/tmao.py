@@ -107,54 +107,53 @@
 # print(counte(m))
 # #==========================
 
-def count_odd(n):
-    count=0
-    while n>0:
-        dig=n%10  
-        if dig%2==0:
-            count+=1
-        n//=10
-    return count
-m=12346
-print(count_odd(m))
+# def count_odd(n):
+#     count=0
+#     while n>0:
+#         if n%2!=0:
+#             count+=1
+#         n//=10
+#     return count
+# m=12346
+# print(count_odd(m))
 
 #==========================
-# def evendif(n):
-#     sum=0
-#     while n>0:
-#         if n%2==0:
-#             sum+=n%10
-#         n//=10
-#     return sum
-# m=12346
-# print(evendif(m))
-# #==========================
+def evendif(n):
+    sum=0
+    while n>0:
+        if n%2==0:
+            sum+=n%10
+        n//=10
+    return sum
+m=12346
+print(evendif(m))
+#==========================
 
-# def perfect_number(n):
-#     sum=0
-#     for i in range(1,n):
-#         if n%i==0:
-#             sum+=i
-#     return sum==n
+def perfect_number(n):
+    sum=0
+    for i in range(1,n):
+        if n%i==0:
+            sum+=i
+    return sum==n
 
-# m=29
-# print(perfect_number(m))
+m=29
+print(perfect_number(m))
 
-# #==========================
-# def fectors(n):
-#     result=[]
-#     for i in range(1,n+1):
-#         if n%i==0:
-#             result.append(i)
-#     return result
+#==========================
+def fectors(n):
+    result=[]
+    for i in range(1,n+1):
+        if n%i==0:
+            result.append(i)
+    return result
 
-# print(fectors(12))
+print(fectors(12))
 
-# #==========================
-# def gcdandhcf(a,b):
-#     while b!=0:
+#==========================
+def gcdandhcf(a,b):
+    while b!=0:
 
-#         a,b=b,a%b
-#     return a
+        a,b=b,a%b
+    return a
 
-# print(gcdandhcf(24, 36))
+print(gcdandhcf(24, 36))
