@@ -41,6 +41,7 @@ for i in range(1,6):
 #==================================
 
 for i in range(1,6):
-    for j in range(i+1):
-        print(" * " , end=" ")
-    print()
+    print(" "*(6-i)+"*"*i)
+
+for i in range(1,6):
+    print(" "*(i)+"*"*(6-i))
