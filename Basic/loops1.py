@@ -42,6 +42,6 @@ for i in range(1,6):
 
 for i in range(1,6):
     print(" "*(6-i)+"*"*i)
-
+#similar tbut chnages
 for i in range(1,6):
     print(" "*(i)+"*"*(6-i))
