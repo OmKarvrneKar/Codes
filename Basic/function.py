@@ -63,4 +63,5 @@ def gcd(a,b):
     return a
 
 print(gcd(10,20))
+
       
