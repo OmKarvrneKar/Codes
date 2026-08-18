@@ -51,13 +51,13 @@ for i in range(1,6):
         print(j, end="")
     print()
 #--------------------
-# 12345
-# 1234
-# 123
-# 12
-# 1
+
 for i in range(1,6):
-    for j in range(6-i,0,-2):
+    for j in range(1,6-i+1):
         print(j, end="")
-    print()
+    print() 
     
+#================
+for i in range(1, 6):
+    print(" " * (5 - i) + "*" * (2 * i - 1))
+#=================
