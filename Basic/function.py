@@ -38,3 +38,25 @@ def reverse(n):
     return rev
 
 print(reverse(12345))
+
+#================
+def is_prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return False
+    return True
+
+print(is_prime(10))
+#================
+def count_digit(n):
+    count=0
+    while n>0:
+        count+=1
+        n//=10
+    return count
+
+print(count_digit(12345))
+#=================  
+def gcd(a,b):
+    while b:
+      
