@@ -10,12 +10,12 @@ def is_even(n):
     else:
         return False
 
-print(is_even(10))
+print(is_even(17))
 #==================
 def maximun(a,b,c):
-    if a>b and a>c:
+    if a>=b and a>=c:
         return a
-    elif b>a and b>c:
+    elif b>=a and b>=c:
         return b
     else:
         return c
@@ -63,5 +63,16 @@ def gcd(a,b):
     return a
 
 print(gcd(10,20))
+#=======================
+def is_prime(n):
+    if n <= 1:
+        return False
+
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+print(is_prime(1))    
 
       
