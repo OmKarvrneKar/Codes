@@ -25,3 +25,9 @@ for i in n:
         q.append(i)
 print("vowels",len(m))
 print("consonants",len(q)) 
+#================
+pal=input("enter the value")
+if pal==pal[::-1]:
+    print("palindrome")
+else:
+    print("not a palindrome")       
