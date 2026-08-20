@@ -39,3 +39,14 @@ for i in n:
     if i in cha:
         m.append(i)
 print(len(m))
+#=================
+n=input("enther input")
+cha=input("enter charecter")
+m=-1
+
+for i , val in enumerate(n):
+    if val == cha:
+        m=i
+        
+print(m)   
+
