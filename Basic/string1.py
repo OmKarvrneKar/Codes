@@ -6,11 +6,11 @@ print(s[0])
 print(s[-1])
     
 #==============
-Input=input("enter the string ")
-no=len(Input)
-for i in range(no):
-    if Input[i] in "aeiouAEIOU":
-        print(Input[i])
-    else:
-        print(Input[i])
-    
+n=input("enter the value")
+m=[]
+for i in n:
+    if i in "AEIOUaeiou":
+        m.append(i)
+print(len(m))
+
+#==================
