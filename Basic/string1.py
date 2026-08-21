@@ -49,4 +49,8 @@ for i , val in enumerate(n):
         m=i
         
 print(m)   
+#=================
 
+data='i love python'
+data =data.strip()
+print(data)
