@@ -1,3 +1,4 @@
 w=input("enter the value : ")
-for i in w:
-    print(i, end=" ")
+deta=w.split()
+for i in deta:
+    print(i[:-1], end=" ") 
