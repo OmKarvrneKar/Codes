@@ -51,6 +51,8 @@ for i , val in enumerate(n):
 print(m)   
 #=================
 
-data='i love python'
-data =data.strip()
-print(data)
+data=("  i love python  ")
+m=data.strip()
+print(m)
+clean=data.replace(" ","")
+print(clean)
