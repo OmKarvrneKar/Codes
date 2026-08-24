@@ -56,3 +56,9 @@ m=data.strip()
 print(m)
 clean=data.replace(" ","")
 print(clean)
+#===================
+
+text='I love Python programming'
+m=text.split()
+
+print(len(m)) 

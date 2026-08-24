@@ -1,4 +1,4 @@
-w=input("enter the value : ")
-deta=w.split()
-for i in deta:
-    print(i, end=" ") 
+text='I love Python programming'
+m=text.split()
+
+print(len(m)) 
