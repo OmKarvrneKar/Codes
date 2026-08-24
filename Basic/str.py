@@ -1,4 +1,3 @@
-text='I love Python programming'
-m=text.split()
-
-print(len(m)) 
+data=("  i love python  ")
+m=data.split(" ")
+print(m)
