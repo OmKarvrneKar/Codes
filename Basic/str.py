@@ -1,9 +1,12 @@
 text='aabbcdde'
-data=len(text)
-match=[]
-if match==text:
-    continue
-elif match==text[i+1]:
-    match.append(text[i])
+freq={}
+for i in text:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+for i in freq:
+    if freq[i]==1:
+        print(i)
+        break
 
-print(match)    
