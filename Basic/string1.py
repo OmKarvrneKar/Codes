@@ -73,5 +73,4 @@ for i in text:
 for i in freq:
     if freq[i]==1:
         print(i)
-        break
-
+        
