@@ -179,4 +179,3 @@ def remove_zero(n):
 
 m=123450
 print("Number after removing zeros is: 123450 ",remove_zero(m))
-#==========================
