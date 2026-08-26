@@ -24,6 +24,6 @@ for i in range(n):
         val.append(sum)
      print(val)
 
- 
+ #========================
 
     
