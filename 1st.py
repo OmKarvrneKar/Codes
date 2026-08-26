@@ -12,6 +12,3 @@ for i in range(n-k+1):
     sum_arry.append(sum)
 
 print(sum_arry)
-
-
-
