@@ -24,15 +24,15 @@ except (ZeroDivisionError, ValueError):
     print("invalid input or division by zero") 
 # #====================================================
 
-# try :
-#     a= int(input("enter a number : "))
-#     b= int(input("enter a number : "))
-#     c=a/b
+try :
+    a= int(input("enter a number : "))
+    b= int(input("enter a number : "))
+    c=a/b
     
-# except ZeroDivisionError:
-#     print("division by zero is not possible")
-# else: 
-#     print(c)
+except ZeroDivisionError:
+    print("division by zero is not possible")
+else: 
+    print(c)
 
 
 
