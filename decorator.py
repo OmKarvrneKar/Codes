@@ -1,3 +1,4 @@
+# This file demonstrates decorators in Python
 def decorrator(func):
 
     def wrapper():

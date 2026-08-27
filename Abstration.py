@@ -1,3 +1,4 @@
+# This file demonstrates abstraction in Python
 from abc import ABC ,abstractmethod # ABC STAND FOR ABSTRACT BASE CLASS
 
 class vehical(ABC): # VEHICAL IS ABSTRACT CLASS

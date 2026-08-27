@@ -1,3 +1,4 @@
+# This file demonstrates string operations in Python
 s = "program"
 
 print("pro" in s)  # True, because "pro" is a substring of "program"
