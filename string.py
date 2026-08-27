@@ -1,15 +1,15 @@
-# s = "program"
+s = "program"
 
-# print("pro" in s)  # True, because "pro" is a substring of "program"
-# print("gram" in s)  # True, because "gram" is a substring of    
+print("pro" in s)  # True, because "pro" is a substring of "program"
+print("gram" in s)  # True, because "gram" is a substring of    
 
-# print(s[:-1])
-# m= input("Enter a string: ")
+print(s[:-1])
+m= input("Enter a string: ")
 
-# if m == m[::-1]:
-#     print("The string is a palindrome.")
-# else:
-#     print("The string is not a palindrome.")
+if m == m[::-1]:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
 
 # s= input("Enter a string: ")
 # print(s.replace(" ", "_"))  # Replaces all spaces in the string with underscores
