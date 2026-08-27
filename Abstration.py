@@ -58,19 +58,19 @@ class hdfc(rbi):
 #         self.dead.add(name)
         
 
-    def getInheritanceOrder(self) -> List[str]:
-        order=[]
+    # def getInheritanceOrder(self) -> List[str]:
+    #     order=[]
 
-        def dfs(person):
+    #     def dfs(person):
 
-            if person not in self.dead:
+    #         if person not in self.dead:
 
-                order.append(person)
+    #             order.append(person)
 
-            for child in self.children[person]:
-                dfs(child)
-        dfs (self.king)
-        return order
+    #         for child in self.children[person]:
+    #             dfs(child)
+    #     dfs (self.king)
+    #     return order
         
 
 
