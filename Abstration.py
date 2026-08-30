@@ -41,36 +41,36 @@ class hdfc(rbi):
 
 
 #=========================================
-class ThroneInheritance:
+# class ThroneInheritance:
 
-    def __init__(self, kingName: str):
-        self.king= kingName
-        self.children = defaultdict(list)
-        self.dead = set()
+#     def __init__(self, kingName: str):
+#         self.king= kingName
+#         self.children = defaultdict(list)
+#         self.dead = set()
 
 
-    def birth(self, parentName: str, childName: str) -> None:
-        self.children[parentName].append(childName)
+#     def birth(self, parentName: str, childName: str) -> None:
+#         self.children[parentName].append(childName)
 
         
 
-    def death(self, name: str) -> None:
-        self.dead.add(name)
+#     def death(self, name: str) -> None:
+#         self.dead.add(name)
         
 
-    def getInheritanceOrder(self) -> List[str]:
-        order=[]
+    # def getInheritanceOrder(self) -> List[str]:
+    #     order=[]
 
-        def dfs(person):
+    #     def dfs(person):
 
-            if person not in self.dead:
+    #         if person not in self.dead:
 
-                order.append(person)
+    #             order.append(person)
 
-            for child in self.children[person]:
-                dfs(child)
-        dfs (self.king)
-        return order
+    #         for child in self.children[person]:
+    #             dfs(child)
+    #     dfs (self.king)
+    #     return order
         
 
 
