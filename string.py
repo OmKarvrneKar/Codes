@@ -20,15 +20,15 @@ m= input("Enter a string: ")
 print(m.lower())s
 print(m.isalpha())
 
-# u =0
-# l =0
-# for i in m:
-#     if i.isupper():
-#         u +=1
-#     elif i.islower():
-#         l +=1
-# print(f"Number of uppercase letters: {u}")
-# print(f"Number of lowercase letters: {l}")
+u =0
+l =0
+for i in m:
+    if i.isupper():
+        u +=1
+    elif i.islower():
+        l +=1
+print(f"Number of uppercase letters: {u}")
+print(f"Number of lowercase letters: {l}")
 # the above code counts the number of uppercase and lowercase letters in the input string.
 
 # for i in m:
