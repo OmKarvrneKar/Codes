@@ -14,7 +14,7 @@ else:
 
 s= input("Enter a string: ")
 print(s.replace(" ", "_"))  # Replaces all spaces in the string with underscores
-the above code checks if the input string is a palindrome and replaces spaces with underscores in the string.
+#the above code checks if the input string is a palindrome and replaces spaces with underscores in the string.
 
 # m= input("Enter a string: ")
 # print(m.lower())s
