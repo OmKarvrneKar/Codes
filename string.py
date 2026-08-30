@@ -12,9 +12,9 @@ if m == m[::-1]:
 else:
     print("The string is not a palindrome.")
 
-# s= input("Enter a string: ")
-# print(s.replace(" ", "_"))  # Replaces all spaces in the string with underscores
-# the above code checks if the input string is a palindrome and replaces spaces with underscores in the string.
+s= input("Enter a string: ")
+print(s.replace(" ", "_"))  # Replaces all spaces in the string with underscores
+the above code checks if the input string is a palindrome and replaces spaces with underscores in the string.
 
 # m= input("Enter a string: ")
 # print(m.lower())s
